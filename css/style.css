@@ -46,7 +46,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'BlexMono Nerd Font', sans-serif;
   font-size: 13.5px;
   transition: 0.2s ease-in-out;
 }
@@ -210,7 +210,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 30px;
-  padding: 20px;
+  height: 275px;
 }
 @media only screen and (max-width: 68.75em) {
   .qlink {
@@ -272,6 +272,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 220px;
 }
 @media only screen and (max-width: 68.75em) {
   .qlist {
