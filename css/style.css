@@ -21,7 +21,7 @@
     change the --imgcol value
     to make the filter to your own */
 
-  --imgbg: url(../img/exodus_scaled.jpg);
+  /*--imgbg: url(../img/exodus_scaled.jpg);*/
   --imgcol: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)); /* Filter color */
 }
 
@@ -36,9 +36,9 @@
 /* Dark theme  */
 .darktheme {
   --accent: #186efd60; /* Hover color */
-  --bg: #1e1f21;       /* Background color */
-  --sbg: #2c2d31;      /* Cards color */
-  --fg: #d8dee9;       /* Foreground color */
+  --bg: #202020;       /* Background color */
+  --sbg: #292929;      /* Cards color */
+  --fg: #ebdbb2;       /* Foreground color */
   --imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));    /* Filter color */
 }
 
